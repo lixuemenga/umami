@@ -45,7 +45,8 @@
     "postbuild": "node scripts/postbuild.js",
     "test": "jest",
     "cypress-open": "cypress open cypress run",
-    "cypress-run": "cypress run cypress run"
+    "cypress-run": "cypress run cypress run",
+    "migrate-db": "prisma migrate deploy"
   },
   "lint-staged": {
     "**/*.{js,jsx,ts,tsx}": [
