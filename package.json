@@ -24,7 +24,7 @@
     "build-tracker": "rollup -c rollup.tracker.config.js",
     "build-prisma-client": "node scripts/build-prisma-client.js",
     "build-lang": "npm-run-all format-lang compile-lang download-country-names download-language-names clean-lang",
-    "build-geo": "node scripts/build-geo.js",
+    "build-geo": "echo 'Skipping Geo Build'",
     "build-db": "npm-run-all build-db-client build-prisma-client",
     "build-db-schema": "prisma db pull",
     "build-db-client": "prisma generate",
